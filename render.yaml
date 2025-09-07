@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pdf-master-pro-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
