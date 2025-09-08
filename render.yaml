@@ -3,5 +3,5 @@ services:
     name: pdf-master-pro-api
     env: docker
     plan: free
-    dockerfilePath: ./Dockerfile
+    dockerfilePath: ./backend/Dockerfile
     autoDeploy: true
